@@ -86,3 +86,50 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
+#header {
+  background: url(./img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.navbar_container {
+  background: transparent !important;
+  border-color: transparent !important;
+  width: 80%;
+  margin: auto;
+}
+
+.header_nav_right li a {
+  color: aliceblue !important;
+}
+
+.navbar_right_button a {
+  text-transform: capitalize;
+  color: brown !important;
+  border: solid;
+  border-color: brown;
+  border-radius: 5em;
+  padding: 5px 15px !important;
+  margin: auto;
+}
+
+.h1 {
+  width: 60%;
+  margin: auto;
+  padding-top: 60px;
+  color: white !important;
+  text-align: center;
+  font-size: xx-large !important;
+  font-weight: bold !important;
+}
+
+.p1 {
+  width: 55%;
+  margin: auto;
+  padding-top: 20px;
+  color: white !important;
+  text-align: center;
+  font-size: medium !important;
+}
