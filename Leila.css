@@ -1,4 +1,4 @@
-html,
+/* html,
 body,
 div,
 span,
@@ -85,7 +85,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}
+} */
 
 #header {
   background: url(./img/bg.png);
@@ -102,23 +102,37 @@ video {
   margin: auto;
 }
 
-.header_nav_right li a {
-  color: aliceblue !important;
-}
-
-.navbar_right_button a {
+.header_nav_right_button {
   text-transform: capitalize;
-  color: brown !important;
-  border: solid;
-  border-color: brown;
+  color: rgb(238, 73, 73) !important;
+  border: solid !important;
+  border-color: rgb(238, 73, 73) !important;
   border-radius: 5em;
-  padding: 5px 15px !important;
   margin: auto;
 }
 
-.h1 {
-  width: 65%;
+.header_nav_right_button a {
+  color: rgb(238, 73, 73) !important ;
+}
+
+.nav li {
+  border: solid;
+  border-color: rgb(238, 73, 73);
+  border-radius: 5em;
   margin: auto;
+  border-color: transparent;
+}
+
+.nav li a {
+  padding: 1px 10px !important;
+  color: white;
+}
+.header-title {
+  width: 50%;
+  margin: auto;
+}
+
+.header-title_h {
   padding-top: 60px;
   color: white !important;
   text-align: center;
@@ -126,9 +140,7 @@ video {
   font-weight: bold !important;
 }
 
-.p1 {
-  width: 60%;
-  margin: auto;
+.header-title_p {
   padding-top: 20px;
   color: white !important;
   text-align: center;
@@ -136,7 +148,7 @@ video {
 }
 
 .header-search {
-  width: 50%;
+  width: 40%;
   margin: auto;
   text-align: center;
   margin-top: 40px;
@@ -146,14 +158,14 @@ video {
   width: 78%;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
-  padding: 17px;
+  padding: 15px;
   border: none;
 }
 
 .input_submit {
   width: 21%;
   margin-left: -5px;
-  padding: 17px;
+  padding: 15px;
   border: none;
   text-align: center;
   border-bottom-right-radius: 20px;
@@ -165,22 +177,22 @@ video {
 }
 
 .header_chat_1 {
-  width: 30%;
+  width: 22%;
   margin: 50px auto 25px auto;
   background-color: white;
   border-radius: 10px;
-  padding: 15px 50px;
+  padding: 20px 50px;
   text-align: left;
   position: relative;
   left: -50px;
 }
 
 .header_chat_2 {
-  width: 30%;
+  width: 22%;
   margin: auto;
   background-color: white;
   border-radius: 10px;
-  padding: 15px 50px;
+  padding: 20px 50px;
   text-align: left;
   position: relative;
   right: -50px;
@@ -188,40 +200,40 @@ video {
 
 .iconka {
   position: absolute;
-  top: -5px;
-  left: -60px;
+  width: 80px;
+  top: 5px;
+  left: -50px;
 }
 
 .iconka_2 {
   position: absolute;
-  top: -5px;
-  right: -60px;
+  width: 80px;
+  top: 5px;
+  right: -50px;
 }
 
 .presentation_content_container {
   padding-top: 50px;
 }
-.content_container_1 {
-  width: 70%;
-  margin: auto;
-}
 
 .grafik_icon {
-  width: 100%;
-  height: 289px; /*на сколько правильно так віравнивать блоки по содержимому? */
+  /* width: 100%; */
+  height: 289px;
+  text-align: center !important;
 }
 
 .container_1_1 {
-  padding-right: 30px !important;
+  text-align: right;
 }
+
 .container_1_2 {
-  padding-left: 30px !important;
+  /* padding-left: 40px !important; */
 }
 
 .img_line {
   position: absolute;
   top: 70px;
-  left: 25px;
+  left: 10px;
 }
 
 .link_learn_more {
@@ -233,17 +245,18 @@ video {
   margin-top: 20px;
 }
 .container_1_2_sub_1 {
-  width: 40%;
+  width: 35%;
   margin: auto;
   display: inline-block;
-  margin-right: 10px; /*на сколько правильно так центрировать серую полоску между блоками */
-  border-right: solid 1px lightgrey !important;
+  border-right: 1px solid lightgrey !important;
+  padding-right: 20px;
 }
 
 .container_1_2_sub_2 {
-  width: 48%;
+  width: 40%;
   margin: auto;
   display: inline-block;
+  padding-left: 20px;
 }
 
 .container_1_2 h2 {
