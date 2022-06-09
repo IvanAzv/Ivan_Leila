@@ -100,19 +100,24 @@ video {
   border-color: transparent !important;
   width: 80%;
   margin: auto;
+  padding-top: 10px;
 }
 
 .header_nav_right_button {
   text-transform: capitalize;
-  color: rgb(238, 73, 73) !important;
   border: solid !important;
   border-color: rgb(238, 73, 73) !important;
   border-radius: 5em;
+
   margin: auto;
 }
 
+header#header .navbar-default .navbar-nav > li a {
+  color: white;
+}
+
 .header_nav_right_button a {
-  color: rgb(238, 73, 73) !important ;
+  color: rgb(238, 73, 73) !important;
 }
 
 .nav li {
@@ -123,10 +128,6 @@ video {
   border-color: transparent;
 }
 
-.nav li a {
-  padding: 1px 10px !important;
-  color: white;
-}
 .header-title {
   width: 50%;
   margin: auto;
@@ -186,6 +187,15 @@ video {
   position: relative;
   left: -50px;
 }
+.header_chat_1 p::before {
+  content: "";
+  background: url(./img/icon.png);
+  width: 99px;
+  height: 96px;
+  position: absolute;
+  top: -3px;
+  left: -70px;
+}
 
 .header_chat_2 {
   width: 22%;
@@ -198,12 +208,12 @@ video {
   right: -50px;
 }
 
-.iconka {
+/* .iconka {
   position: absolute;
   width: 80px;
   top: 5px;
   left: -50px;
-}
+} */
 
 .iconka_2 {
   position: absolute;
@@ -231,9 +241,11 @@ video {
 }
 
 .img_line {
-  position: absolute;
+  /* position: absolute;
   top: 70px;
-  left: 10px;
+  left: 10px; */
+
+  margin-left: -3px;
 }
 
 .link_learn_more {
@@ -242,7 +254,7 @@ video {
 }
 
 .container_1_2_sub {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .container_1_2_sub_1 {
   width: 35%;
@@ -271,5 +283,29 @@ video {
 }
 
 .text_1 {
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+.liniya_razr-seraya {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  width: 60%;
+  margin: auto;
+}
+
+.liniya_razr-seraya img {
+  width: 100%;
+}
+
+.content_container_2 .container_1_1 {
+  text-align: left;
+}
+
+.read_more_link {
+  border: 2px solid;
+}
+
+.content_container_2 .container_1_1 img {
+  height: 289px;
+  text-align: center !important;
 }
