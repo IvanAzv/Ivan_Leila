@@ -302,10 +302,32 @@ header#header .navbar-default .navbar-nav > li a {
 }
 
 .read_more_link {
+  width: 50%;
+  height: 40px;
   border: 2px solid;
+  border-radius: 30px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: rgb(238, 73, 73);
+  border-color: transparent;
+  /* margin-top: 40px !important; не реагирует */
+}
+
+.read_more_link a {
+  color: white;
 }
 
 .content_container_2 .container_1_1 img {
+  height: 289px;
+  text-align: center !important;
+}
+
+.content_container_2 .container_1_2 .text_1 {
+  margin-bottom: 30px !important;
+}
+
+.content_container_3 .container_1_1 img {
   height: 289px;
   text-align: center !important;
 }
