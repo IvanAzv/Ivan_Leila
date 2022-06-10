@@ -331,3 +331,11 @@ header#header .navbar-default .navbar-nav > li a {
   height: 289px;
   text-align: center !important;
 }
+
+.content_container_3 .container_1_2 {
+  padding-top: 30px;
+}
+
+.content_container_3 .container_1_2 .text_1 {
+  margin-bottom: 30px !important;
+}
