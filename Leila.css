@@ -510,3 +510,35 @@ header#header .navbar-default .navbar-nav > li a {
 .mac_container p {
   margin-bottom: 20px;
 }
+
+.footer {
+  background-color: rgba(235, 235, 235, 0.366);
+  padding: 50px 0;
+  margin-top: 100px;
+}
+
+.footer_container {
+  width: 70%;
+  margin: auto;
+}
+
+.footer_block {
+  width: 33%;
+  display: inline-block;
+}
+.footer_container .footer_block_1 p {
+  margin-top: 15px;
+  width: 70%;
+}
+.footer_container .footer_block_2 {
+  text-align: center;
+}
+
+.footer_container .footer_block_3 {
+  text-align: end;
+}
+
+.fa-brands {
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
