@@ -368,3 +368,177 @@ header#header .navbar-default .navbar-nav > li a {
   width: 60%;
   height: 50%;
 }
+
+.text_three_column_container {
+  width: 60%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.column {
+  width: 20%;
+  margin: auto;
+  display: table-cell;
+}
+
+.column h4 {
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 30%; /*правильно ли ясдвинул текст с помощью паддинга? */
+}
+
+.column p {
+  font-size: 13px;
+  color: grey;
+  padding-left: 30%;
+}
+
+.column_1::before {
+  content: "";
+  background: url(./img/7.png);
+  width: 42px;
+  height: 48px;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.column_1 {
+  position: relative;
+}
+
+.column_2 {
+  position: relative;
+}
+
+.column_2 img {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+.column_3 {
+  position: relative;
+}
+
+.column_3 img {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.poloska_container {
+  width: 75%;
+  margin: auto;
+}
+.poloska_seraya {
+  display: inline-block;
+  width: 20%;
+  margin: auto;
+  border-bottom: 1px solid grey;
+  margin-left: 10%;
+}
+
+.felix_text_container {
+  margin-top: 75px;
+  background-color: rgba(235, 235, 235, 0.366);
+  padding-top: 75px;
+}
+
+.felix_text_container .container_1_1 img {
+  width: 80%;
+}
+
+.felix_text_container .container_1_2 {
+  padding-top: 40px;
+}
+.felix_text_container .container_1_2 h2 {
+  width: 100%;
+}
+
+.felix_text_container .container_1_2 p {
+  margin-top: 20px;
+  color: gray;
+}
+
+.felix_text_container .container_1_2 .text_1 {
+  color: black;
+  font-style: italic;
+}
+
+.felix_text_container .container_1_2 .podpis {
+  margin-top: 20px;
+}
+
+.felix_text_container .container_1_2 .podpis .seriy_krug {
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+  border-radius: 50%;
+  display: inline-block;
+}
+.felix_text_container .container_1_2 .podpis .familiya {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 8px;
+  vertical-align: top;
+}
+
+.felix_text_container .container_1_2 .podpis .familiya h4 {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 !important;
+}
+
+.felix_text_container .container_1_2 .podpis .familiya p {
+  padding-top: 5px;
+  font-size: 12px;
+  margin: 0 !important;
+}
+
+.mac_container a {
+  border: 2px solid;
+  border-radius: 30px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgb(238, 73, 73);
+  border-color: transparent;
+  color: white;
+  padding: 10px 30px;
+}
+
+.mac_container p {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: rgba(235, 235, 235, 0.366);
+  padding: 50px 0;
+  margin-top: 100px;
+}
+
+.footer_container {
+  width: 70%;
+  margin: auto;
+}
+
+.footer_block {
+  width: 33%;
+  display: inline-block;
+}
+.footer_container .footer_block_1 p {
+  margin-top: 15px;
+  width: 70%;
+}
+.footer_container .footer_block_2 {
+  text-align: center;
+}
+
+.footer_container .footer_block_3 {
+  text-align: end;
+}
+
+.fa-brands {
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
