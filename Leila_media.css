@@ -1,0 +1,60 @@
+@media (max-width: 1150px) {
+    .footer_block{
+        display: block;
+        
+    }
+
+    .footer_container .footer_block_1 {
+        width: 100%;
+     
+        }
+
+    .footer_container .footer_block_2 {
+        width: 100%;
+        padding-top: 25px;
+        text-align: left;
+        }
+    .footer_container .footer_block_3{
+        width: 100%;
+        padding-top: 25px;
+        text-align: left;
+
+
+    }
+    .text_three_column_container .column img{
+        opacity: 0;
+    }
+    
+    .text_three_column_container .column_1::before{
+        opacity: 0;
+    }
+
+    .header-search{
+        width: 95%;
+    }
+
+    .input_text{
+        width: 60%;
+
+    }
+
+    /* можно ли сделать перенос реквест демо? */
+    .input_submit{
+        width: 35%;
+
+    }
+
+    .header_chat_block{
+        width: 90%;
+    }
+
+    .header_chat_1{
+        width: 90%;
+        left: 30px;
+    }
+
+    .header_chat_2 {
+        width: 90%;
+        left: -20px;
+    }
+}
